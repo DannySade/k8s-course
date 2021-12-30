@@ -12,7 +12,6 @@ spec:
     rollingUpdate:
       maxUnavailable: 0%
       maxSurge: 100%
-      type: RollingUpdate
   template: # create pods using pod definition in this template
     metadata:
       # unlike pod-nginx.yaml, the name is not included in the meta data as a unique name is
